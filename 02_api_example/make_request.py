@@ -11,7 +11,7 @@ if __name__ == "__main__":
         ]
         print(request_data)
         response = requests.get(
-            "http://3.127.229.49/predict/",
+            "http://<IP_ADRESS>/predict/",
             json={"data": [request_data], "features": request_features},
         )
         print(response.status_code)

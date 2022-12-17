@@ -7,7 +7,7 @@ metadata:
     app: fastapi-ml
 spec:
   containers:
-    - image: mikhailmar/online_inference:v2
+    - image: <username>/online_inference:v2
       name: fastapi-ml
       ports:
         - containerPort: 8000
